@@ -1,0 +1,45 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.keys{
+    color: #fff;
+    margin: 20% 10%;
+}
+.keys .key{
+display: inline-block;
+width: 60px;
+margin: 3px;
+padding: 25px 20px;
+font-size: 14px;
+text-align: center;
+text-transform: uppercase;
+border: 3px solid #000;
+box-shadow: 0 0 2px #000;
+border-radius: 10px;
+}
+kbd{
+    font-size: 18px;
+}
+.keys .key:hover{
+    transform: scale(1.1);
+    /*
+    border: 3px solid orange;
+    box-shadow: 0 0 2px orange;*/
+    transition: all 0.07s;
+}
+.keys span{
+    display: block;
+    color: orange;
+}
+
+.playing{
+    transform: scale(1.1);
+    transition: all 0.07s;
+}
+
+
+
+
+
+
+
